@@ -1,1 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Time Limit",
+  "description": "Limits the time spent on specific websites in the last half an hour to five minutes.",
+  "version": "1.0",
+  "permissions": ["alarms", "storage", "tabs", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "host_permissions": ["*://*.example.com/*"]
+}
 
