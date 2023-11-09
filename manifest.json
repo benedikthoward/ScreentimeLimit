@@ -5,10 +5,10 @@
   "version": "1.0",
   "permissions": ["alarms", "storage", "tabs", "scripting"],
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "Logic.js"
   },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "LimitMessage.html"
   },
   "content_scripts": [
     {
